@@ -1,0 +1,55 @@
+.col-card{
+    margin: 2px 0;
+}
+.card-img-top{
+  height: 300px;
+}
+.jumbotron{
+  text-align: center;
+}
+.text-warning{
+  font-size: 14px;
+}
+#footer{
+  box-sizing: border-box;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+}
+#footer p{
+  margin: 0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+div.frm{
+  background-color: rgb(214, 255, 214);
+  padding: 30px 0;
+}
+.about{
+  text-align: justify;
+}
+.about h1{
+  color:#292e33;
+  text-align: center;
+}
+.sc{
+  border-radius: 0;
+  border-left: 5px solid green;
+  background-color: rgba(214,255,214,0.5);
+}
+@media only screen and (max-width: 576px) {
+      .carousel-item img{
+        display: block;
+        height: 250px;
+      }
+      .con{
+        width: 94%;
+        margin: 0 auto;
+      }
+      .sc{
+        margin-top: 10px;
+      }
+}
